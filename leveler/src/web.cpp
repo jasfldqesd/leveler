@@ -12,7 +12,7 @@ static void handleNotFound();
 
 void web_init() {
   WiFi.softAP("Camper", "leveler");
-  
+
   Serial.println("Access Point Started");
   Serial.print("AP IP address: ");
   Serial.println(WiFi.softAPIP());
